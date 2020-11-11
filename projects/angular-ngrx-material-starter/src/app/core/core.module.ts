@@ -126,7 +126,7 @@ export function httpLoaderFactory(http: HttpClient) {
     EffectsModule.forRoot([
       AuthEffects,
       SettingsEffects,
-      GoogleAnalyticsEffects
+      //GoogleAnalyticsEffects
     ]),
     environment.production
       ? []

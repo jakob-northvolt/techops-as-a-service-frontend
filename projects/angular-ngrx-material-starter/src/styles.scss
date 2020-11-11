@@ -56,3 +56,5 @@
   @include angular-material-theme($anms-nature-theme);
   @include custom-components-theme($anms-nature-theme);
 }
+
+.center { text-align: center;}
